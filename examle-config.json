@@ -1,0 +1,40 @@
+{
+  "appName": "nextjs-app",
+  "appDescription": "Description of your app",
+  "nodeVersion": "v20.11.0",
+  "twitterHandle": "@twitter_handle",
+  "googleAnalyticsId": "G-XXXXXXXXXX",
+  "copyright": "Company Name",
+  "useAuth": false,
+  "useSentry": false,
+  "manifest": {
+    "name": "App Name",
+    "shortName": "App",
+    "themeColor": "#000000",
+    "backgroundColor": "#ffffff"
+  },
+  "dependencies": [
+    "@headlessui/react",
+    "@heroicons/react",
+    "@next/third-parties",
+    "@tanstack/react-query",
+    "react-hook-form",
+    "@hookform/resolvers",
+    "react-hot-toast",
+    "zod"
+  ],
+  "environments": {
+    ".env.local": {
+      "NEXT_PUBLIC_SITE_URL": "http://localhost:3000",
+      "NODE_ENV": "development"
+    },
+    ".env.production": {
+      "NEXT_PUBLIC_SITE_URL": "https://dubpay.sonatik.net",
+      "NODE_ENV": "production"
+    },
+    ".env.example": {
+      "NEXT_PUBLIC_SITE_URL": "http://localhost:3000",
+      "NODE_ENV": "development"
+    }
+  }
+}
