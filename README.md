@@ -15,7 +15,7 @@
 
 ## 🎯 What You Get
 
-✅ **Next.js 14** with App Router  
+✅ **Next.js LTS** with App Router  
 ✅ **TypeScript** configured  
 ✅ **Tailwind CSS** for styling  
 ✅ **Headless UI** components  
